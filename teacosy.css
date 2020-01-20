@@ -1,0 +1,130 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0 auto;
+}
+
+.logo {
+    width: auto;
+    max-height: 50px;
+    padding-left: 10px;
+}
+
+header {
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    max-height: 69px;
+    z-index: 10;
+    background-color: black;
+}
+
+header ul {
+    margin-top: 10px;
+    padding: 0;
+}
+
+header li {
+    text-decoration: underline;
+    list-style: none;
+    padding: 10px;
+    float: right;
+}
+
+main {
+    position: relative;
+    top: 69px;
+    margin: 0 20px;
+}
+
+.mission {
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+    margin: 0 auto;
+    text-align: center;
+    width: 1200px;
+    height: 700px;
+}
+
+.mission-des {
+    background-color: black;
+    position: absolute;
+    vertical-align: middle;
+    width: 1200px;
+    top: 250px;
+}
+
+.firsttea {
+    width: auto;
+    height: 700px;
+    display: block;
+    margin: 0 auto;
+}
+
+.tea-month {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.big-foto {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.teamonth-title {
+    text-align: center;
+}
+
+.tea-pic {
+    width: 300px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+.fotos {
+    text-align: center;
+}
+
+.tea-name {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.location-title {
+    padding-top: 100px;
+    margin: 0;
+}
+
+.location {
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+    margin: 0 auto;
+    text-align: center;
+    width: 1200px;
+    height: 500px;
+    background-size: cover;
+}
+
+.locations {
+    background-color: black;
+    width: 300px;
+    height: auto;
+    flex-basis: 280px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px 20px;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+    margin-left: 20px;
+}
